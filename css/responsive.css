@@ -24,7 +24,7 @@ h4 {
 }
 
 .next-home {
-	top: calc(99vh);
+	top: calc(100vh - 100px);
 }
 
 .headline-body {
