@@ -1,0 +1,157 @@
+
+/*tablets*/
+@media only screen and (max-width: 760px) {
+
+
+	
+
+}
+
+
+/*mobile*/
+@media only screen and (max-width: 480px) {
+p {
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+h3 {
+	font-size: 6vw;
+}
+
+h4 {
+	font-size: 4.5vw;
+}
+
+.next-home {
+	top: calc(100vh - 75px);
+}
+
+.headline-body {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.summary {
+	padding-left: 12%;
+	padding-right: 12%;
+}
+	.frame-left {
+		width: 2px;
+		margin-left: 20px;
+	}
+
+	.frame-right {
+		width: 2px;
+		right: 20px;
+	}
+
+	.frame-top {
+		height: 2px;
+		margin-top: 20px;
+	}
+
+	.frame-bottom {
+		height: 2px;
+		bottom: 20px;
+	}
+	.source {
+		transform: translateY(0) rotate(0);
+	}
+
+	.source-wrapper {
+		position: absolute;
+		top: auto;
+		left: calc(50% - 200px);
+		width: 400px;
+		bottom: 80px;
+	}
+
+.title {
+		margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	position: absolute;
+	width: calc(100% - 100px);
+}
+
+.overlay_section-2
+{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background: url(crochet-1_mobile.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+
+
+.overlay_section-3
+{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background: url(crochet-2_mobile.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+
+.overlay_section-4
+{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background: url(crochet-3_mobile.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+
+.crochet-1_labels{
+	background: url(crochet-1_labels_mobile.jpg);
+		background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+
+
+.crochet-2_labels{
+	background: url(crochet-2_mobile_labels.jpg);
+		background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+
+
+.crochet-3_labels{
+	background: url(crochet-3_mobile_labels.jpg);
+		background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+
+.all-up {
+	background: url(all-up_mobile.jpg);
+		background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+
+.credit {
+	position: absolute;
+	top: 75px;
+	transform: translateY(-80%);
+	width: 100%;
+
+}
+
+
+
+p.small {
+	font-size: 14px;
+}
+
+
+}

@@ -1,0 +1,441 @@
+
+
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+html { 
+	background: #FFF5EB;
+	/*	scroll-behavior: smooth;*/
+	font-kerning: normal;
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+
+.top {
+	padding-top: 10px;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+}
+
+
+
+/*type*/
+
+h1 { 
+	font-family: 'Alike', serif;
+	font-weight: 500;
+	font-size: 10vw;
+	text-align: center;
+	color: #ffffff;
+	letter-spacing: -0.035em;
+}
+
+strong {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 700;
+}
+
+h2 { 
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 1.5%;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-align: center;
+}
+
+h2 a {
+	text-decoration: none !important;
+	color: #ffffff;
+}
+
+h3 {
+	font-family: 'Alike', serif;
+	font-weight: 500;
+	font-size: 5vw;
+	text-align: center;
+	color: #0A2E33;
+	letter-spacing: -0.035em;
+}
+
+h4 {
+	font-family: 'Alike', serif;
+	font-weight: 500;
+	font-size: 2.25vw;
+	text-align: left;
+	color: #0A2E33;
+	letter-spacing: -0.035em;
+	margin-bottom: 1em;
+	line-height: 1.15em;
+}
+
+h4 a {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 700;
+	color: inherit;
+	text-decoration: underline;
+}
+
+p {
+	font-family: 'Alike', serif;
+	font-size: 24px;
+	line-height: 1.5em;
+	font-weight: 500;
+	text-align: center;
+	color: #0B3036;
+}
+
+p a {
+	color: inherit; 
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+p.source-copy {
+	font-family: 'Alike', serif;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+	color: #6E7F90;
+}
+
+p.small {
+	font-family: 'Alike', serif;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+	color: #6E7F90;
+}
+
+.top-padding-small {
+	padding-top: 24px;
+}
+
+.top-padding-large {
+	padding-top: 80px;
+}
+
+.bottom-padding-large {
+	padding-bottom: 80px;
+}
+
+.top-padding-xlarge {
+	padding-top: 120px;
+}
+
+.full-height-wrapper {
+	height: 100vh;
+	z-index: 100;
+	position: relative;
+}
+
+.green{
+	background-color: #0A2E33;
+}
+
+.crochet-1{
+	background: url(crochet-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+.crochet-1_labels{
+	background: url(crochet-1_labels.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+
+.crochet-2{
+	background: url(crochet-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+.crochet-2_labels{
+	background: url(crochet-2_labels.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+
+.crochet-3{
+	background: url(crochet-3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+.crochet-3_labels{
+	background: url(crochet-3_labels.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+
+.all-up {
+	background: url(all-up.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+
+.headline-top {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
+
+.headline-body {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	padding-left: 17%;
+	padding-right: 17%;
+}
+
+.headline-wrapper {
+	position: absolute;
+	background-color: rgba(254, 245, 236, 0.7);
+	margin-top: 90px;
+	margin-left: 90px;
+	height: calc(100vh - 180px);
+	width: calc(100vw - 180px);
+}
+
+
+.body-wrapper {
+	z-index: 1000;
+}
+
+.frame-left {
+	height: 100vh;
+	width: 3px;
+	position: fixed;
+	background-color: #BFC5CB;
+	z-index: 200;
+	margin-left: 90px;
+}
+
+.frame-right {
+	height: 100vh;
+	width: 3px;
+	position: fixed;
+	background-color: #BFC5CB;
+	z-index: 200;
+	right: 90px;
+}
+
+.frame-top {
+	height: 3px;
+	width: 100vw;
+	position: fixed;
+	margin-top: 90px;
+	background-color: #BFC5CB;
+	z-index: 200;
+}
+
+.frame-bottom {
+	height: 3px;
+	width: 100vw;
+	position: fixed;
+	bottom: 90px;
+	background-color: #BFC5CB;
+	z-index: 200;
+}
+
+.next {
+	top: calc(100vh - 55px);
+	position: relative;
+	display: inline;
+	background-color: #FFF5EB;
+}
+
+.next-home {
+	top: calc(100vh - 55px);
+	position: relative;
+	display: inline;
+	background-color: #FFF5EB;
+}
+
+.inline {
+	display: inline;
+}
+
+
+.keret-white {
+	margin-left: calc(50vw - 10px);
+	padding-top: 8px;
+}
+
+.keret-green {
+	margin-left: calc(50vw - 10px);
+	padding-top: 3px;
+}
+
+
+
+.title {
+	margin-top: 25px;
+	margin-left: 110px;
+	margin-right: 110px;
+	position: absolute;
+	width: calc(100% - 220px);
+}
+
+.source {
+	transform: translateY(-50%) rotate(-90deg);
+}
+
+.source-wrapper {
+	position: absolute;
+	top: 50%;
+	left: -155px;
+	width: 400px;
+}
+
+.summary {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.credit {
+	position: absolute;
+	top: 80%;
+	transform: translateY(-80%);
+	width: 100%;
+}
+
+
+
+.keret-top {
+	margin-left: calc(50vw - 120px);
+}
+
+.back a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+.section {
+	z-index: 1000;
+}
+
+#section-2 {
+	display: none;
+}
+
+#section-3 {
+	display: none;
+}
+
+#section-4 {
+	display: none;
+}
+
+#section-5 {
+	display: none;
+}
+
+#section-6 {
+	display: none;
+}
+
+.overlay_section-2
+{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background: url(crochet-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+
+.next_section-2b {
+	display: none;
+}
+
+.overlay_section-3
+{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background: url(crochet-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+
+.overlay_section-4
+{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background: url(crochet-3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
+}
+
+.next_section-3b {
+	display: none;
+}
+.next_section-4b {
+	display: none;
+}
+
+.btn-2 {
+	cursor: pointer;
+}
+
+.btn-3 {
+	cursor: pointer;
+}
+
+
+.btn-4 {
+	cursor: pointer;
+}
+
+.btn-5 {
+	cursor: pointer;
+}
+
+.btn-2b-back {
+	cursor: pointer;
+}
+.btn-3b-back {
+	cursor: pointer;
+}
+.btn-4b-back {
+	cursor: pointer;
+}
+
+
+
+.back {
+	bottom: 30px;
+	margin-left: 110px;
+	margin-right: 110px;
+	position: absolute;
+	width: calc(100% - 220px);
+}
+
+
