@@ -102,6 +102,7 @@ top: calc(100vh - 160px);
 	width: 100vw;
 	height: 100vh;
 	background: url(crochet-1_mobile.jpg);
+	background-color: #FFF5EB;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center; /* Center the image */
@@ -114,6 +115,7 @@ top: calc(100vh - 160px);
 	width: 100vw;
 	height: 100vh;
 	background: url(crochet-2_mobile.jpg);
+	background-color: #FFF5EB;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center; /* Center the image */
@@ -125,6 +127,7 @@ top: calc(100vh - 160px);
 	width: 100vw;
 	height: 100vh;
 	background: url(crochet-3_mobile.jpg);
+	background-color: #FFF5EB;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center; /* Center the image */
