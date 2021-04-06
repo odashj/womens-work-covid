@@ -264,14 +264,14 @@ p.small {
 }
 
 .next {
-	top: calc(100vh - 75px);
+	top: calc(100vh - 55px);
 	position: relative;
 	display: inline;
 	background-color: #FFF5EB;
 }
 
 .next-home {
-	top: calc(100vh - 75px);
+	top: calc(100vh - 55px);
 	position: relative;
 	display: inline;
 	background-color: #FFF5EB;

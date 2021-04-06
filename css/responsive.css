@@ -24,11 +24,11 @@ h4 {
 }
 
 .next-home {
-	top: calc(100vh - 75px);
+	top: calc(100vh - 150px);
 }
 
 .next {
-	top: calc(100vh - 75px);
+	top: calc(100vh - 150px);
 }
 
 .headline-body {
