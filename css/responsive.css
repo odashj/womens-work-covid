@@ -83,9 +83,9 @@ top: calc(100vh - 160px);
 	.source-wrapper {
 		position: absolute;
 		top: auto;
-		left: calc(50% - 210px);
+		left: calc(50% - 200px);
 		width: 400px;
-		bottom: 80px;
+		bottom: 90px;
 	}
 
 .title {
