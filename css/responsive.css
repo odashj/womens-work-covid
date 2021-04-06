@@ -38,16 +38,19 @@ top: calc(100vh - 150px);
 .headline-body {
 	padding-left: 10%;
 	padding-right: 10%;
+	top: calc(50% - 15px);
+	transform: translateY(calc(-50% - 15px));
 }
 
 .summary {
 	padding-left: 12%;
 	padding-right: 12%;
+	height: calc(100vh - 345px);
 }
 
 .summary-fade {
 	position: absolute;
-	top: calc(100vh - 180px);
+	top: calc(100vh - 220px);
 	transform: translateY(-50%);
 	width: calc(100% - 40px);
 	margin-left: 20px;
@@ -82,7 +85,7 @@ top: calc(100vh - 150px);
 		top: auto;
 		left: calc(50% - 200px);
 		width: 400px;
-		bottom: 100px;
+		bottom: 80px;
 	}
 
 .title {
