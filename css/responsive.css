@@ -24,7 +24,11 @@ h4 {
 }
 
 .next-home {
-	top: calc(100vh - 200px);
+	top: calc(100vh - 75px);
+}
+
+.next {
+	top: calc(100vh - 75px);
 }
 
 .headline-body {
@@ -35,6 +39,16 @@ h4 {
 .summary {
 	padding-left: 12%;
 	padding-right: 12%;
+}
+
+.summary-fade {
+	position: absolute;
+	top: calc(100vh - 180px);
+	transform: translateY(-50%);
+	width: calc(100% - 40px);
+	margin-left: 20px;
+	height: 100px;
+	background-image: linear-gradient(rgba(255,245,235,0), rgba(255,245,235,1));
 }
 	.frame-left {
 		width: 2px;
@@ -64,7 +78,7 @@ h4 {
 		top: auto;
 		left: calc(50% - 200px);
 		width: 400px;
-		bottom: 80px;
+		bottom: 100px;
 	}
 
 .title {

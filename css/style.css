@@ -15,6 +15,8 @@ html {
 body {
 	overflow-x: hidden;
 	overflow-y: hidden;
+
+
 }
 
 
@@ -68,6 +70,11 @@ h3 {
 	text-align: center;
 	color: #0A2E33;
 	letter-spacing: -0.035em;
+}
+
+h3 a{
+	color: #0A2E33;
+	text-decoration: underline;
 }
 
 h4 {
@@ -312,7 +319,20 @@ p.small {
 	transform: translateY(-50%);
 	padding-left: 25%;
 	padding-right: 25%;
+	height: calc(100vh - 275px);
+	overflow-y: scroll;
 }
+
+.summary-fade {
+	position: absolute;
+	top: calc(100vh - 225px);
+	transform: translateY(-50%);
+	width: calc(100% - 180px);
+	margin-left: 90px;
+	height: 200px;
+	background-image: linear-gradient(rgba(255,245,235,0), rgba(255,245,235,1));
+}
+
 
 .credit {
 	position: absolute;
@@ -363,6 +383,7 @@ p.small {
 	width: 100vw;
 	height: 100vh;
 	background: url(crochet-1.jpg);
+	background-color: #FFF5EB;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center; /* Center the image */
@@ -378,6 +399,7 @@ p.small {
 	width: 100vw;
 	height: 100vh;
 	background: url(crochet-2.jpg);
+	background-color: #FFF5EB;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center; /* Center the image */
@@ -388,6 +410,7 @@ p.small {
 	position: absolute;
 	width: 100vw;
 	height: 100vh;
+	background-color: #FFF5EB;
 	background: url(crochet-3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -437,5 +460,7 @@ p.small {
 	position: absolute;
 	width: calc(100% - 220px);
 }
+
+
 
 
