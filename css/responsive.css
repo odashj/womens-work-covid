@@ -24,15 +24,15 @@ h4 {
 }
 
 .next-home {
-	top: calc(100vh - 150px);
+	top: calc(100vh - 160px);
 }
 
 .next {
-	top: calc(100vh - 150px);
+	top: calc(100vh - 160px);
 }
 
 .back {
-top: calc(100vh - 150px);
+top: calc(100vh - 160px);
 }
 
 .headline-body {
