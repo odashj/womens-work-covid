@@ -150,6 +150,10 @@ p.small {
 
 .green{
 	background-color: #0A2E33;
+	background-image: url(home-background.gif);
+		background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; /* Center the image */
 }
 
 .crochet-1{
